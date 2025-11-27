@@ -11,6 +11,10 @@ def main():
    
     CONFIG = get_default_config()
     
+    # Ensure output directory exists
+    import os
+    os.makedirs("output", exist_ok=True)
+    
     CONFIG["n_qubits"] = 2
     CONFIG["device"] = "cpu"
     CONFIG["num_epochs"] = 300
@@ -47,3 +51,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
