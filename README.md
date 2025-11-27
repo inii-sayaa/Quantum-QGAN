@@ -1,4 +1,4 @@
-# 🌌 Quantum-QGAN: Hybrid Quantum-Classical Generative Adversarial Network
+# Quantum-QGAN: Hybrid Quantum-Classical Generative Adversarial Network
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
@@ -6,55 +6,55 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A **hybrid quantum-classical Generative Adversarial Network (GAN)** implementation that combines:
-- 🔬 **Quantum Generator**: Variational Quantum Circuit (VQC) using PennyLane
-- 🧠 **Classical Discriminator**: Multi-layer Perceptron (MLP) using PyTorch
-- 📊 **Advanced Metrics**: Maximum Mean Discrepancy (MMD) for distribution comparison
+- **Quantum Generator**: Variational Quantum Circuit (VQC) using PennyLane
+- **Classical Discriminator**: Multi-layer Perceptron (MLP) using PyTorch
+- **Advanced Metrics**: Maximum Mean Discrepancy (MMD) for distribution comparison
 
 This project demonstrates how quantum computing can be integrated into modern machine learning workflows for generative modeling tasks.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ **Hybrid Architecture**: Quantum generator + Classical discriminator
-- ✅ **Flexible Configuration**: Easy-to-modify hyperparameters
-- ✅ **Professional Structure**: Modular, maintainable, and scalable codebase
-- ✅ **Rich Visualizations**: Training dynamics and distribution analysis
-- ✅ **Reproducibility**: Seed management for consistent results
-- ✅ **Model Checkpointing**: Save and resume training
+- **Hybrid Architecture**: Quantum generator + Classical discriminator
+- **Flexible Configuration**: Easy-to-modify hyperparameters
+- **Professional Structure**: Modular, maintainable, and scalable codebase
+- **Rich Visualizations**: Training dynamics and distribution analysis
+- **Reproducibility**: Seed management for consistent results
+- **Model Checkpointing**: Save and resume training
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 QGAN-QUANTUM/
 │
-├── 📄 main.py                    # Main entry point
-├── 📄 requirements.txt           # Dependencies
-├── 📄 STRUCTURE.md              # Detailed structure guide
+├── main.py                    # Main entry point
+├── requirements.txt           # Dependencies
+├── STRUCTURE.md              # Detailed structure guide
 │
-├── 📁 src/                       # Source code
+├── src/                       # Source code
 │   ├── config.py                 # Configuration settings
 │   ├── models.py                 # Quantum & Classical models
 │   ├── training.py               # Training pipeline
 │   ├── visualization.py          # Plotting functions
 │   └── utils.py                  # Utility functions
 │
-├── 📁 data/                      # Data directory
-├── 📁 output/                    # Results & checkpoints
+├── data/                      # Data directory
+├── output/                    # Results & checkpoints
 │   ├── qgan_analysis.png         # Training plots
 │   ├── qgan_enhanced.png         # Enhanced visualization
 │   └── qgan_checkpoint.pth       # Model checkpoint
 │
-└── 📁 venv/                      # Virtual environment
+└── venv/                      # Virtual environment
 ```
 
 See [STRUCTURE.md](STRUCTURE.md) for detailed architecture documentation.
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -81,7 +81,7 @@ See [STRUCTURE.md](STRUCTURE.md) for detailed architecture documentation.
 
 ---
 
-## 🎯 Quick Start
+## Quick Start
 
 ### Basic Training
 
@@ -114,23 +114,23 @@ CONFIG["device"] = "cuda"       # Use GPU (if available)
 
 ---
 
-## 📊 Outputs
+## Outputs
 
 After training, you'll find:
 
-### 1. **Training Analysis** (`output/qgan_analysis.png`)
+### 1. Training Analysis (`output/qgan_analysis.png`)
 - Loss curves (Generator & Discriminator)
 - MMD metric over time
 - Sample distribution comparison
 - Training statistics
 
-### 2. **Enhanced Visualization** (`output/qgan_enhanced.png`)
+### 2. Enhanced Visualization (`output/qgan_enhanced.png`)
 - Distribution heatmaps
 - Quantum circuit diagram
 - Convergence analysis
 - Advanced metrics
 
-### 3. **Model Checkpoint** (`output/qgan_checkpoint.pth`)
+### 3. Model Checkpoint (`output/qgan_checkpoint.pth`)
 - Trained generator state
 - Trained discriminator state
 - Configuration snapshot
@@ -138,7 +138,7 @@ After training, you'll find:
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 ### Architecture Overview
 
@@ -177,7 +177,7 @@ After training, you'll find:
 
 ---
 
-## 📈 Key Metrics
+## Key Metrics
 
 - **Generator Loss**: Measures generator's ability to fool discriminator
 - **Discriminator Loss**: Measures discriminator's classification accuracy
@@ -186,7 +186,7 @@ After training, you'll find:
 
 ---
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Resuming Training
 
@@ -208,7 +208,7 @@ def sample_real_data(n_samples, config):
 
 ---
 
-## 🎓 Learning Resources
+## Learning Resources
 
 ### Quantum Computing
 - [PennyLane Documentation](https://pennylane.ai/)
@@ -224,7 +224,7 @@ def sample_real_data(n_samples, config):
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 - Report bugs
@@ -233,13 +233,13 @@ Contributions are welcome! Please feel free to:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **PennyLane**: Quantum computing framework
 - **PyTorch**: Deep learning framework
@@ -247,18 +247,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Author**: [Your Name]  
 **GitHub**: [@inii-sayaa](https://github.com/inii-sayaa)  
 **Project**: [Quantum-QGAN](https://github.com/inii-sayaa/Quantum-QGAN)
-
----
-
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a star ⭐!
-
----
-
-*Built with 💜 using Quantum Computing and Machine Learning*
