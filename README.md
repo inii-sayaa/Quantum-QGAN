@@ -249,6 +249,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-**Author**: [Your Name]  
+**Author**: Ahmad Rasidi  
 **GitHub**: [@inii-sayaa](https://github.com/inii-sayaa)  
 **Project**: [Quantum-QGAN](https://github.com/inii-sayaa/Quantum-QGAN)
