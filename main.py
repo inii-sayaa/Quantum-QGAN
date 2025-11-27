@@ -6,7 +6,6 @@ from src.config import get_default_config
 from src.training import train_qgan
 from src.visualization import plot_results_basic, plot_results_enhanced
 
-
 def main():
    
     CONFIG = get_default_config()
